@@ -1,0 +1,25 @@
+olution : Activer l'exécution des scripts PowerShell
+Ouvre PowerShell en mode administrateur
+
+Appuie sur Windows + R, tape powershell, puis fais Ctrl + Shift + Entrée pour l'ouvrir en mode administrateur.
+Exécute cette commande pour autoriser les scripts :
+
+sh
+Copier
+Modifier
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+Si on te demande une confirmation, tape A puis Entrée.
+Ferme et rouvre PowerShell pour appliquer les changements.
+
+Réessaye ta commande dans ton terminal VS Code :
+
+sh
+Copier
+Modifier
+npx create-react-app motion-design-site
+💡 Si tu veux revenir à la restriction par défaut plus tard, exécute :
+
+sh
+Copier
+Modifier
+Set-ExecutionPolicy Restricted -Scope CurrentUser
