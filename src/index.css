@@ -6,7 +6,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color:  #578BF2  !important; /* #578BF2 */
+  background-image: url(background.jpg)  !important; /* #578BF2 */
+  background-size: 80%;
+  backdrop-filter: blur(10px) !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
