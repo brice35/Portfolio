@@ -91,5 +91,7 @@ button:focus-visible {
   button {
     background-color: #53b8b8 ;/* couleur des bouton dans le corps */
     
+    outline: none;
+    
   }
 }

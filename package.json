@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-
   "dependencies": {
     "@tailwindcss/vite": "^4.0.12",
+    "firebase": "^11.6.1",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
