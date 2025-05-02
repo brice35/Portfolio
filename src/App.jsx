@@ -1,16 +1,25 @@
-import { Routes, Route } from "react-router-dom";
-import Gallery from "./pages/Gallery.jsx";
-import Login from "./pages/Login.jsx";
-import Signup from "./pages/Signup.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
+import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Gallery />} />
-      <Route path="/upload" element={<Gallery />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+       </Routes>
+       <Footer />
+    </>
   );
 }
 
