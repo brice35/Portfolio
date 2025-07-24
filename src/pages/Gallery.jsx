@@ -12,10 +12,10 @@ function Gallery() {
   };
 
   return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold mb-4 ">Gallery</h1>
+    <div className="p-8 font-satoshi">
+      <h1 className="text-4xl font-bold mb-4 ">Ribec</h1>
       <p className="text-xl mb-8">
-        Browse through our collection of motion design projects.
+        Hello! Welcome to my portfolio, where you can find all my work and services. I'm Brice MAMANG..
       </p>
 
       <button

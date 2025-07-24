@@ -11,23 +11,11 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        {/* Section principale avec le compteur */}
-        <main className="flex-grow pt-16 pb-16 px-8 text-left">
-          {/*<h1 className="text-3xl font-bold">Bienvenue sur mon site !</h1>
-          <p className="text-gray-600 mt-2">Explorez les différentes pages :</p>
-          <div className="mt-4">
-            <button
-              onClick={() => setCount((count) => count + 1)}
-              className="px-4 py-2 bg-blue-500 text-white rounded-md"
-            >
-              Compteur : {count}
-            </button>
-          </div>*/}
-
-          {/* Routes de l'application */}
+        {/* Corps centré et contenu réduit */}
+        <main className="flex-1 py-8 px-4 text-left max-w-4xl mx-auto min-h-[300px]">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
