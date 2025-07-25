@@ -1,73 +1,70 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
-function Gallery() {
-  const [showForm, setShowForm] = useState(false);
-  const [file, setFile] = useState(null);
-  const [title, setTitle] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Title:", title);
-    console.log("File:", file);
-  };
-
+function Services() {
   return (
-    <div className="p-8 font-satoshi">
-      <h1 className="text-4xl font-bold mb-4">Ribec</h1>
-      <p className="text-xl mb-8">
-        Hello! Welcome to my portfolio, where you can find all my work and services. I'm Brice MAMANG.
-      </p>
+    <div className="min-h-screen flex justify-center items-start px-6 py-12 font-inter">
+      <div className="w-full max-w-6xl">
 
-      <button
-        onClick={() => setShowForm(!showForm)}
-        className="bg-blue-500 transition delay-700 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 mb-6 px-4 py-2 rounded-md"
-      >
-        {showForm ? "Cancel" : "Add a new creation"}
-      </button>
+        {/* Main Heading */}
+        <h1 className="text-3xl font-bold text-center mb-16 mt-24 text-[#1e1e1e] font-satoshi">
+          Services
+        </h1>
 
-      {showForm && (
-        <div className="mt-8 flex flex-col lg:flex-row gap-6">
-          {/* Upload Form */}
-          <form
-            onSubmit={handleSubmit}
-            className="flex-1 bg-white/10 backdrop-blur-sm p-6 rounded-xl shadow-lg"
-          >
-            <label className="block mb-2 font-medium">Creation title</label>
-            <input
-              type="text"
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              placeholder="Name of your project"
-              className="w-full p-2 mb-4 bg-black/10 text-black placeholder-white/100 rounded-md focus:outline-none"
-            />
-
-            <label className="block mb-2 font-medium">File (video or motion design)</label>
-            <input
-              type="file"
-              accept="video/*,.json,.gif"
-              onChange={(e) => setFile(e.target.files[0])}
-              className="w-full p-2 mb-4 bg-black/10 text-white rounded-md"
-            />
-
-            <button
-              type="submit"
-              className="bg-blue-500 px-6 py-2 rounded-md hover:bg-indigo-500 transition duration-300"
-            >
-              Submit
-            </button>
-          </form>
-
-          {/* Placeholder for creations */}
-          <div className="flex-1 bg-white/60 backdrop-blur-sm p-6 rounded-xl shadow-inner">
-            <h2 className="text-2xl font-semibold mb-4">Your Creations</h2>
-            <div className="bg-white/10 h-48 rounded-lg flex items-center justify-center text-black/100">
-              No creations uploaded yet...
+        {/* Service Cards Grid */}
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {/* UX Design */}
+          <div className="bg-white rounded-lg p-6 shadow-md text-center hover:shadow-lg transition">
+            <div className="w-16 h-16 mx-auto bg-red-100 flex items-center justify-center rounded-full mb-4 text-red-600 text-xl">
+              UX
             </div>
+            <h2 className="text-xl font-semibold mb-2">UX Design</h2>
+            <p className="text-gray-700 text-base text-justify">
+              Designing intuitive user journeys tailored to each need for a smooth and enjoyable experience.
+            </p>
+          </div>
+
+          {/* Visual Interface */}
+          <div className="bg-white rounded-lg p-6 shadow-md text-center hover:shadow-lg transition">
+            <div className="w-16 h-16 mx-auto bg-red-100 flex items-center justify-center rounded-full mb-4 text-red-600 text-xl">
+              UI
+            </div>
+            <h2 className="text-xl font-semibold mb-2">Visual Interface</h2>
+            <p className="text-gray-700 text-base text-justify">
+              Designing aesthetic, modern, and consistent interfaces aligned with your project's visual identity.
+            </p>
+          </div>
+
+          {/* Web Development */}
+          <div className="bg-white rounded-lg p-6 shadow-md text-center hover:shadow-lg transition">
+            <div className="w-16 h-16 mx-auto bg-red-100 flex items-center justify-center rounded-full mb-4 text-red-600 text-xl">
+              💻
+            </div>
+            <h2 className="text-xl font-semibold mb-2">Web Development</h2>
+            <p className="text-gray-700 text-base text-justify">
+              Integrating designs and building dynamic websites using React, Firebase, and more.
+            </p>
           </div>
         </div>
-      )}
+
+        {/* Navigation Buttons */}
+        <div className="text-center space-x-4 mb-24">
+          <Link
+            to="/about"
+            className="inline-block bg-[#dc2626] text-white px-6 py-3 rounded-lg hover:bg-red-700 transition font-semibold"
+          >
+            About Me
+          </Link>
+          <Link
+            to="/contact"
+            className="inline-block bg-[#1e1e1e] text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition font-semibold"
+          >
+            Contact
+          </Link>
+        </div>
+
+      </div>
     </div>
   );
 }
 
-export default Gallery;
+export default Services;
