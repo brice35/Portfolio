@@ -31,20 +31,23 @@ const Navbar = () => {
 
   return (
     <nav
-      className="fixed top-5 left-1/2 transform -translate-x-1/2 bg-gray-800 
-                 px-6 py-3 shadow-md z-50 flex items-center justify-center 
-                 rounded-full border border-white/20 w-[700px] font-[Satoshi]"
+      className="fixed top-5 left-1/2 transform -translate-x-1/2 
+      bg-[#f97316] px-6 py-3 shadow-md z-50 flex items-center justify-center 
+      rounded-full border border-[#fde68a] w-[700px] font-[Satoshi]"
     >
       {/* Logo */}
       <Link
         to="/"
         className="absolute left-5 top-1/2 transform -translate-y-1/2"
       >
+        <div className="flex items-center space-x-2">
         <img src="/logo_ribec (1).png" alt="Logo" className="h-10 w-auto" />
+        <h1 className="text-2xl font-bold text-white">RIBEC</h1>
+        </div>
       </Link>
 
       {/* Menu */}
-      <ul className="flex justify-center space-x-6 text-white">
+      <ul className="flex justify-center space-x-6 text-[#1e1e1e]">
         {menuItems.map((item, index) => (
           <li key={item.name}>
             <Link
@@ -53,8 +56,8 @@ const Navbar = () => {
               className={`px-4 py-1.5 rounded-full font-semibold text-sm transition-all duration-300 transform
                 ${
                   location.pathname === `/${item.path}`
-                    ? "bg-blue-500 text-white shadow-lg scale-105 rotate-2"
-                    : "hover:bg-blue-400 hover:text-white hover:scale-110 hover:rotate-1"
+                    ? "bg-[#ea580c] text-white shadow-lg scale-105 rotate-2"
+                    : "hover:bg-[#fde68a] hover:text-[#1e1e1e] hover:scale-110 hover:rotate-1"
                 }`}
             >
               {item.name}
