@@ -5,9 +5,11 @@ const projets = [
     description:
       "Dwesta is a full-stack platform developed with a robust MVC architecture. This project integrates a relational database for dynamic data management, as well as an external API to add advanced features. This work demonstrates my comprehensive mastery of the web development cycle, from back-end to user interface.",
     images: [
-      "/projets/projet1_horizontale.jpg",
-      "/projets/projet1_verticale.jpg",
-      "/projets/projet1_carree.jpg",
+      "/projets/dwesta1.webp",
+      "/projets/dwesta2.webp",
+      "/projets/dwesta3.png",
+      "/projets/dwesta4.png",
+      "/projets/dwesta5.png",
     ],
   },
   {
@@ -15,11 +17,7 @@ const projets = [
     title: "3D Interior Modeling",
     description:
       "This university project highlights my creativity and skills in 3D modeling using Blender. I explored innovative shapes and volumes to design a realistic and aesthetic interior, working on lighting and textures to enhance the visual atmosphere. This work illustrates the balance between technical skills and artistic expression in 3D design.",
-    images: [
-      "/projets/projet2_horizontale.jpg",
-      "/projets/projet2_verticale.jpg",
-      "/projets/projet2_carree.jpg",
-    ],
+    images: ["/projets/3d0.png"],
   },
   {
     id: "projet3",
@@ -39,11 +37,7 @@ const projets = [
     title: "Adobe Illustrator Vector Image",
     description:
       "This creative project showcases my expertise in using Adobe Illustrator to create precise and expressive vector images. I utilized the software’s advanced tools to produce dynamic graphic compositions, combining creativity, precision, and technical skills for a professional and aesthetic result.",
-    images: [
-      "/projets/projet4_horizontale.jpg",
-      "/projets/projet4_verticale.jpg",
-      "/projets/projet4_carree.jpg",
-    ],
+    images: ["/projets/logo_ribec (1).png", ,],
   },
 ];
 

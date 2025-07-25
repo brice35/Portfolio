@@ -16,17 +16,18 @@ const ProjectDetail = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-extrabold text-[#1e1e1e] mb-4 font-satoshi">{project.title}</h1>
+      <h1 className="text-4xl font-extrabold text-[#1e1e1e] mb-4 font-satoshi">
+        {project.title}
+      </h1>
       <p className="text-lg text-gray-700 mb-10">{project.description}</p>
 
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2">
         {project.images.map((img, index) => (
           <img
             key={index}
             src={img}
             alt={`${project.title} - image ${index + 1}`}
-            className={`w-full rounded-xl object-cover shadow-lg transition-transform duration-300 hover:scale-105
-              ${index % 3 === 0 ? "h-80" : index % 3 === 1 ? "h-96" : "h-72"}`}
+            className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
           />
         ))}
       </div>

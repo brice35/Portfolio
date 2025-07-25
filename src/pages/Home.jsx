@@ -17,7 +17,7 @@ const Work = () => {
           className="col-span-6 sm:col-span-4 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
         >
           <img
-            src="/projets/dwesta1.png"
+            src="/projets/dwesta1.webp"
             alt="Projet 1"
             className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
           />
