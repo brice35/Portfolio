@@ -1,20 +1,20 @@
 const projets = [
   {
     id: "projet1",
-    title: "Projet 1",
+    title: "Dwesta",
     description:
-      "Ce projet est une démonstration de mes compétences en développement web full-stack. Il inclut l'architecture MVC, l'interaction avec une base de données, et l'intégration d'une API externe.",
+      "Dwesta is a full-stack platform developed with a robust MVC architecture. This project integrates a relational database for dynamic data management, as well as an external API to add advanced features. This work demonstrates my comprehensive mastery of the web development cycle, from back-end to user interface.",
     images: [
-      "/projets/projet1_horizontale.jpg", // image principale horizontale
-      "/projets/projet1_verticale.jpg", // image verticale
-      "/projets/projet1_carree.jpg", // image carrée
+      "/projets/projet1_horizontale.jpg",
+      "/projets/projet1_verticale.jpg",
+      "/projets/projet1_carree.jpg",
     ],
   },
   {
     id: "projet2",
-    title: "Projet 2",
+    title: "3D Interior Modeling",
     description:
-      "Un projet basé sur le design UI/UX et l'intégration responsive. Il explore des grilles asymétriques, des animations légères et une expérience utilisateur intuitive.",
+      "This university project highlights my creativity and skills in 3D modeling using Blender. I explored innovative shapes and volumes to design a realistic and aesthetic interior, working on lighting and textures to enhance the visual atmosphere. This work illustrates the balance between technical skills and artistic expression in 3D design.",
     images: [
       "/projets/projet2_horizontale.jpg",
       "/projets/projet2_verticale.jpg",
@@ -23,20 +23,22 @@ const projets = [
   },
   {
     id: "projet3",
-    title: "Projet 3",
+    title: "3D Flask Modeling",
     description:
-      "Développement d’une application moderne avec React.js et Firebase. Le projet comprend une authentification utilisateur, un dashboard dynamique, et un stockage cloud.",
+      "A university project focused on creativity in 3D modeling, realized with Blender. I designed a detailed flask by playing with shapes, materials, and lighting effects to make the object as realistic as possible. This project reflects my ability to combine creativity and technical mastery in a professional 3D environment.",
     images: [
-      "/projets/projet3_horizontale.jpg",
-      "/projets/projet3_verticale.jpg",
-      "/projets/projet3_carree.jpg",
+      "/projets/3d2.png",
+      "/projets/3d3.png",
+      "/projets/3d4.png",
+      "/projets/3d5.png",
+      "/projets/3d6.png",
     ],
   },
   {
     id: "projet4",
-    title: "Projet 4",
+    title: "Adobe Illustrator Vector Image",
     description:
-      "Création d’un site vitrine complet avec animations GSAP. Ce projet met en avant le motion design et une performance optimisée pour le SEO.",
+      "This creative project showcases my expertise in using Adobe Illustrator to create precise and expressive vector images. I utilized the software’s advanced tools to produce dynamic graphic compositions, combining creativity, precision, and technical skills for a professional and aesthetic result.",
     images: [
       "/projets/projet4_horizontale.jpg",
       "/projets/projet4_verticale.jpg",
