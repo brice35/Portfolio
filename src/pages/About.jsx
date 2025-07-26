@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+// Import de l'image Profil.webp depuis le dossier assets (à ajuster selon ton arborescence)
+import Profil from "../assets/Profil.webp";
 
 function About() {
   return (
@@ -7,7 +9,7 @@ function About() {
 
         {/* Contenu aligné en deux colonnes */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-12 mb-16">
-          
+
           {/* Texte à gauche */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#1e1e1e] mb-6 font-satoshi">
@@ -39,7 +41,7 @@ function About() {
           {/* Image à droite */}
           <div className="flex-1 max-w-md w-full shadow-md rounded-lg overflow-hidden h-110">
             <img
-              src="/public/Profil.webp"
+              src={Profil}  // utilisation de l'import ici
               alt="Profile"
               className="object-cover w-full h-full"
             />

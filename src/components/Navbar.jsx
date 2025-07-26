@@ -3,6 +3,9 @@ import { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
 import { Menu, X } from "lucide-react";
 
+// ✅ Import du logo via import relatif
+import logo from "../assets/logo_ribec (1).png";
+
 const Navbar = () => {
   const location = useLocation();
   const buttonRefs = useRef([]);
@@ -40,7 +43,7 @@ const Navbar = () => {
         to="/"
         className="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center space-x-2"
       >
-        <img src="/logo_ribec (1).png" alt="Logo" className="h-10 w-auto" />
+        <img src={logo} alt="Logo" className="h-10 w-auto" />
         <h1 className="text-2xl font-bold text-white hidden sm:block">RIBEC</h1>
       </Link>
 

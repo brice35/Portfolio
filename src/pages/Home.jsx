@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 
+// Import des images
+import dwesta1 from "../assets/projets/dwesta1.webp";
+import mod3d0 from "../assets/projets/3d0.png";
+import mod3d1 from "../assets/projets/3d1.png";
+import logoRibec from "../assets/projets/logo_ribec (1).svg";
+
 const Work = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center font-inter px-4 bg-[#fff7ed] py-16">
@@ -17,7 +23,7 @@ const Work = () => {
           className="col-span-6 sm:col-span-4 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
         >
           <img
-            src="/projets/dwesta1.webp"
+            src={dwesta1}
             alt="Projet 1"
             className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
           />
@@ -32,7 +38,7 @@ const Work = () => {
           className="col-span-6 sm:col-span-2 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
         >
           <img
-            src="/projets/3d0.png"
+            src={mod3d0}
             alt="Projet 2"
             className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
           />
@@ -47,7 +53,7 @@ const Work = () => {
           className="col-span-6 sm:col-span-3 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
         >
           <img
-            src="/projets/3d1.png"
+            src={mod3d1}
             alt="Projet 3"
             className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
           />
@@ -56,13 +62,13 @@ const Work = () => {
           </div>
         </Link>
 
-        {/* Projet 4 - Adobe Illustrator placé à côté du projet 3 */}
+        {/* Projet 4 - Adobe Illustrator */}
         <Link
           to="/projets/projet4"
           className="col-span-6 sm:col-span-3 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
         >
           <img
-            src="/projets/logo_ribec (1).svg"
+            src={logoRibec}
             alt="Projet 4"
             className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
           />
