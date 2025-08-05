@@ -12,7 +12,7 @@ import d3d4 from "../assets/projets/3d4.png";
 import d3d5 from "../assets/projets/3d5.png";
 import d3d6 from "../assets/projets/3d6.png";
 
-import logoRibec from "../assets/projets/logo_ribec (1).png";
+import logoRibec from "../assets/projets/logo_ribec.png";
 
 const projets = [
   {

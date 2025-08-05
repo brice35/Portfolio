@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import dwesta1 from "../assets/projets/dwesta1.webp";
 import mod3d0 from "../assets/projets/3d0.png";
 import mod3d1 from "../assets/projets/3d1.png";
-import logoRibec from "../assets/projets/logo_ribec (1).svg";
+import logoRibec from "../assets/projets/logo_ribec.svg";
 
 const Work = () => {
   return (

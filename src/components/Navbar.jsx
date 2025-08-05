@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { Menu, X } from "lucide-react";
 
 // ✅ Import du logo via import relatif
-import logo from "../assets/logo_ribec (1).png";
+import logo from "../assets/logo_ribec.png";
 
 const Navbar = () => {
   const location = useLocation();
