@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail"; // <-- IMPORT ICI
 
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/projets/:projectId" element={<ProjectDetail />} /> {/* <-- ROUTE DYNAMIQUE */}
+          
           </Routes>
         </main>
 

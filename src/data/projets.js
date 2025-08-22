@@ -19,7 +19,7 @@ const projets = [
     id: "projet1",
     title: "Dwesta",
     description:
-      "Dwesta is a full-stack platform developed with a robust MVC architecture. This project integrates a relational database for dynamic data management, as well as an external API to add advanced features. This work demonstrates my comprehensive mastery of the web development cycle, from back-end to user interface.",
+      "Dwesta is a full-stack platform developed with a robust MVC architecture. This project integrates a relational database for dynamic data management, as well as an external API to add advanced features. This work demonstrates my comprehensive mastery of the web development cycle, from back-end to user interface (dwesta.com).",
     images: [dwesta1, dwesta2, dwesta3, dwesta4, dwesta5],
   },
   {
