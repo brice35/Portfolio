@@ -74,6 +74,7 @@ function Services() {
             <li>After Effect</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Adobe Premiere Pro</li>
           </ul>
         </div>
 
