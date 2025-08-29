@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// Import de l'image Profil.webp depuis le dossier assets (à ajuster selon ton arborescence)
+// Import de l'image Profil.webp depuis le dossier assets
 import Profil from "../assets/Profil.webp";
 
 function About() {
@@ -13,18 +13,20 @@ function About() {
           {/* Texte à gauche */}
           <div className="flex-1">
             <h2 className="text-3xl font-bold text-[#1e1e1e] mb-6 font-satoshi">
-              I’m a passionate interface design student.
+              Je suis un étudiant passionné par le design d’interface.
             </h2>
 
             <div className="space-y-6 text-[#1e1e1e] text-lg text-justify mb-8">
               <p>
-                I'm passionate about interface design, with several years of experience creating intuitive, modern, and efficient user interfaces. I’ve worked on various projects, from web applications to mobile platforms, always striving to combine aesthetics and functionality.
+                Je suis passionné par le design d’interface, avec plusieurs années d’expérience dans la création d’interfaces utilisateur intuitives, modernes et efficaces. 
+                J’ai travaillé sur différents projets, allant d’applications web à des plateformes mobiles, en cherchant toujours à allier esthétique et fonctionnalité.
               </p>
               <p>
-                Outside of design, I have a real passion for drawing and illustration. I also create videos on visual and narrative topics on my YouTube channel, blending storytelling, editing, and audiovisual production to express my artistic vision.
+                En dehors du design, j’ai une véritable passion pour le dessin et l’illustration. 
+                Je crée également des vidéos autour de sujets visuels et narratifs sur ma chaîne YouTube, mêlant narration, montage et production audiovisuelle pour exprimer ma vision artistique.
               </p>
               <p>
-                Want to chat? Feel free to contact me or let’s grab a coffee.
+                Envie d’échanger ? N’hésitez pas à me contacter ou à partager un café !
               </p>
             </div>
 
@@ -33,7 +35,7 @@ function About() {
                 to="/contact"
                 className="inline-block bg-[#dc2626] text-white px-6 py-3 rounded-lg hover:bg-red-700 transition font-semibold"
               >
-                Contact Me
+                Me contacter
               </Link>
             </div>
           </div>
@@ -41,8 +43,8 @@ function About() {
           {/* Image à droite */}
           <div className="flex-1 max-w-md w-full shadow-md rounded-lg overflow-hidden h-110">
             <img
-              src={Profil}  // utilisation de l'import ici
-              alt="Profile"
+              src={Profil}
+              alt="Photo de profil"
               className="object-cover w-full h-full"
             />
           </div>
@@ -51,7 +53,7 @@ function About() {
         {/* Clients */}
         <div className="bg-white rounded-lg p-6 shadow-md">
           <h3 className="text-xl font-semibold text-gray-800 mb-4 font-satoshi">
-            Selected Clients
+            Clients sélectionnés
           </h3>
           <ul className="space-y-2 text-gray-700 list-disc list-inside text-base">
             <li>DWESTA SAS</li>

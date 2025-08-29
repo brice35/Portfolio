@@ -1,4 +1,4 @@
-// ✅ Imports d’images (à adapter selon l'emplacement de ton fichier "projets.js")
+// ✅ Imports d’images
 import dwesta1 from "../assets/projets/dwesta1.webp";
 import dwesta2 from "../assets/projets/dwesta2.webp";
 import dwesta3 from "../assets/projets/dwesta3.png";
@@ -19,28 +19,28 @@ const projets = [
     id: "projet1",
     title: "Dwesta",
     description:
-      "Dwesta is a full-stack platform developed with a robust MVC architecture. This project integrates a relational database for dynamic data management, as well as an external API to add advanced features. This work demonstrates my comprehensive mastery of the web development cycle, from back-end to user interface (dwesta.com).",
+      "Dwesta est une plateforme full-stack développée avec une architecture MVC robuste. Ce projet intègre une base de données relationnelle pour la gestion dynamique des données, ainsi qu’une API externe pour ajouter des fonctionnalités avancées. Ce travail démontre ma maîtrise complète du cycle de développement web, du back-end à l’interface utilisateur (dwesta.com).",
     images: [dwesta1, dwesta2, dwesta3, dwesta4, dwesta5],
   },
   {
     id: "projet2",
-    title: "3D Interior Modeling",
+    title: "Modélisation 3D d’un intérieur",
     description:
-      "This university project highlights my creativity and skills in 3D modeling using Blender. I explored innovative shapes and volumes to design a realistic and aesthetic interior, working on lighting and textures to enhance the visual atmosphere. This work illustrates the balance between technical skills and artistic expression in 3D design.",
+      "Ce projet universitaire met en valeur ma créativité et mes compétences en modélisation 3D avec Blender. J’ai exploré des formes et volumes innovants pour concevoir un intérieur réaliste et esthétique, en travaillant sur l’éclairage et les textures pour renforcer l’ambiance visuelle. Ce travail illustre l’équilibre entre compétences techniques et expression artistique en design 3D.",
     images: [d3d0],
   },
   {
     id: "projet3",
-    title: "3D Flask Modeling",
+    title: "Modélisation 3D d’une fiole",
     description:
-      "A university project focused on creativity in 3D modeling, realized with Blender. I designed a detailed flask by playing with shapes, materials, and lighting effects to make the object as realistic as possible. This project reflects my ability to combine creativity and technical mastery in a professional 3D environment.",
+      "Un projet universitaire centré sur la créativité en modélisation 3D, réalisé avec Blender. J’ai conçu une fiole détaillée en jouant sur les formes, les matériaux et les effets lumineux pour rendre l’objet aussi réaliste que possible. Ce projet reflète ma capacité à allier créativité et maîtrise technique dans un environnement 3D professionnel.",
     images: [d3d2, d3d3, d3d4, d3d5, d3d6],
   },
   {
     id: "projet4",
-    title: "Adobe Illustrator Vector Image",
+    title: "Illustration vectorielle avec Adobe Illustrator",
     description:
-      "This creative project showcases my expertise in using Adobe Illustrator to create precise and expressive vector images. I utilized the software’s advanced tools to produce dynamic graphic compositions, combining creativity, precision, and technical skills for a professional and aesthetic result.",
+      "Ce projet créatif illustre mon expertise dans l’utilisation d’Adobe Illustrator pour créer des images vectorielles précises et expressives. J’ai exploité les outils avancés du logiciel pour produire des compositions graphiques dynamiques, alliant créativité, précision et savoir-faire technique pour un rendu professionnel et esthétique.",
     images: [logoRibec],
   },
 ];

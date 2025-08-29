@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
 import { Menu, X } from "lucide-react";
 
-// ✅ Import du logo via import relatif
+// ✅ Import du logo
 import logo from "../assets/logo_ribec.png";
 
 const Navbar = () => {
@@ -11,10 +11,11 @@ const Navbar = () => {
   const buttonRefs = useRef([]);
   const [isOpen, setIsOpen] = useState(false);
 
+  // ⚡ Traduction des éléments du menu
   const menuItems = [
-    { name: "Work", path: "" },
+    { name: "Accueil", path: "" },
     { name: "Services", path: "services" },
-    { name: "About", path: "about" },
+    { name: "À propos", path: "about" },
     { name: "Contact", path: "contact" },
   ];
 
@@ -43,11 +44,11 @@ const Navbar = () => {
         to="/"
         className="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center space-x-2"
       >
-        <img src={logo} alt="Logo" className="h-10 w-auto" />
+        <img src={logo} alt="Logo RIBEC" className="h-10 w-auto" />
         <h1 className="text-2xl font-bold text-white hidden sm:block">RIBEC</h1>
       </Link>
 
-      {/* Menu burger visible uniquement sur mobile */}
+      {/* Menu burger (mobile) */}
       <button
         className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white md:hidden z-50"
         onClick={() => setIsOpen(!isOpen)}
@@ -55,7 +56,7 @@ const Navbar = () => {
         {isOpen ? <X size={10} /> : <Menu size={8} />}
       </button>
 
-      {/* Menu items */}
+      {/* Liens du menu */}
       <ul
         className={`${
           isOpen

@@ -11,7 +11,7 @@ const Work = () => {
     <div className="min-h-screen flex flex-col items-center justify-center font-inter px-4 bg-[#fff7ed] py-16">
       {/* Intro */}
       <h2 className="text-2xl font-bold text-[#1e1e1e] mb-6 text-center font-satoshi max-w-2xl mx-auto mt-24">
-        Hello! I'm Brice MAMANG. Welcome to my portfolio, where you can find all my work and services
+        Bonjour ! Je suis Brice MAMANG. Bienvenue sur mon portfolio, où vous pouvez découvrir l’ensemble de mes travaux et services
       </h2>
 
       {/* Grille projets */}
