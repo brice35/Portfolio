@@ -13,6 +13,13 @@ import d3d5 from "../assets/projets/3d5.png";
 import d3d6 from "../assets/projets/3d6.png";
 
 import logoRibec from "../assets/projets/logo_ribec.png";
+import dessin1 from "../assets/projets/dessin1.jpg";
+import dessin2 from "../assets/projets/dessin2.jpg";
+import dessin3 from "../assets/projets/dessin3.jpg";
+import dessin4 from "../assets/projets/dessin4.jpg";
+import dessin5 from "../assets/projets/dessin5.jpg";
+import dessin6 from "../assets/projets/dessin6.jpg";
+import dessin7 from "../assets/projets/dessin7.jpg";
 
 const projets = [
   {
@@ -36,8 +43,17 @@ const projets = [
       "Un projet universitaire centré sur la créativité en modélisation 3D, réalisé avec Blender. J’ai conçu une fiole détaillée en jouant sur les formes, les matériaux et les effets lumineux pour rendre l’objet aussi réaliste que possible. Ce projet reflète ma capacité à allier créativité et maîtrise technique dans un environnement 3D professionnel.",
     images: [d3d2, d3d3, d3d4, d3d5, d3d6],
   },
+
   {
     id: "projet4",
+    title: "Mon passe-temps : le dessin",
+    description:
+      "Le dessin est ma passion. J'aime explorer différentes techniques et styles pour exprimer ma créativité et donner vie à mes idées sur papier ou en numérique.",
+    images: [dessin1, dessin2, dessin3, dessin4, dessin5, dessin6, dessin7],
+  },
+
+  {
+    id: "projet5",
     title: "Illustration vectorielle avec Adobe Illustrator",
     description:
       "Ce projet créatif illustre mon expertise dans l’utilisation d’Adobe Illustrator pour créer des images vectorielles précises et expressives. J’ai exploité les outils avancés du logiciel pour produire des compositions graphiques dynamiques, alliant créativité, précision et savoir-faire technique pour un rendu professionnel et esthétique.",

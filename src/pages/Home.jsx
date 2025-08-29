@@ -5,6 +5,7 @@ import dwesta1 from "../assets/projets/dwesta1.webp";
 import mod3d0 from "../assets/projets/3d0.png";
 import mod3d1 from "../assets/projets/3d1.png";
 import logoRibec from "../assets/projets/logo_ribec.svg";
+import dessin from "../assets/projets/dessins.png";
 
 const Work = () => {
   return (
@@ -62,7 +63,22 @@ const Work = () => {
           </div>
         </Link>
 
-        {/* Projet 4 - Adobe Illustrator */}
+                 {/* Projet 4 - Passetemps */}
+        <Link
+          to="/projets/projet4"
+          className="col-span-6 sm:col-span-3 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
+        >
+          <img
+            src={dessin}
+            alt="Projet 4"
+            className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
+          />
+          <div className="absolute bottom-4 left-4 text-black">
+            <h3 className="text-2xl font-bold font-satoshi">Passe-temps</h3>
+          </div>
+        </Link>
+
+        {/* Projet 5 - Adobe Illustrator */}
         <Link
           to="/projets/projet4"
           className="col-span-6 sm:col-span-3 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
@@ -76,6 +92,8 @@ const Work = () => {
             <h3 className="text-2xl font-bold font-satoshi">Adobe Illustrator Image Vectorielle</h3>
           </div>
         </Link>
+
+
 
       </div>
     </div>

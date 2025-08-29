@@ -9,6 +9,7 @@ import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail"; // <-- IMPORT ICI
 
 
+
 function App() {
   const [count, setCount] = useState(0);
 
