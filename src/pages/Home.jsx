@@ -80,12 +80,12 @@ const Work = () => {
 
         {/* Projet 5 - Adobe Illustrator */}
         <Link
-          to="/projets/projet4"
+          to="/projets/projet5"
           className="col-span-6 sm:col-span-3 row-span-2 rounded-xl overflow-hidden group relative shadow-lg hover:scale-[1.02] transition-transform duration-300"
         >
           <img
             src={logoRibec}
-            alt="Projet 4"
+            alt="Projet 5"
             className="w-full h-full object-cover group-hover:opacity-90 transition duration-300"
           />
           <div className="absolute bottom-4 left-4 text-black">
